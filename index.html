@@ -7,34 +7,39 @@
         .grid-container {
             display: grid;
             grid-template-columns: auto auto auto auto;
-            /* grid-gap: 10x 1px; */
             background-color: rgba(102, 164, 189, 0.801);
-            padding: 1px;
             width: 800px;
             height: 800px;
             margin: 0 auto; 
         }
         .grid-item {
             background-color: rgba(219, 217, 226, 0.377);
-            padding: 1px;
             opacity: 0;
-            transition: opacity 2s ease 0.8s, transform 0.8s ease;
+            transition: opacity 0.1s ease 0.04s, transform 0.06s ease; 
             transform: scale(1);
+            width:25%;
+            height:0;
+            padding-bottom: 25%;
         }
         .grid-item:hover {
-            opacity: 1;
-            transition: opacity 0.4s ease;
-            transition: scale(1.04);
-            cursor: "🚀";
+            opacity: 1; */
+            transition: opacity 0.2s ease;
+            transform: scale(1.04);
+            /* cursor: "🚀"; */
         }
         h1 {
             text-align: center;
             color: rgb(0, 52, 110);
         }
+        /* Global Styles */
+        body {
+            justify-content: center;
+        }
         </style>
     </head> 
     <body>
         <h1>Etch-a-Sketch</h1>
+        <br>
         <div class="grid-container"></div>
 
     </body>
