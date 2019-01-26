@@ -1,6 +1,7 @@
 var containerDiv = document.getElementsByClassName("#grid-container")
 
 function createDivs(num) {
+    console.log(num);
     for(i = 0; i < num; i++) {
         var newDiv = document.createElement("div");
         newDiv.className = "grid-item";
@@ -8,4 +9,4 @@ function createDivs(num) {
     }
 }
 
-createDivs(256);
+createDivs(64);
