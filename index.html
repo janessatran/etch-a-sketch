@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Etch-a-Sketch</title>
+
         <style>
         .grid-container {
             display: grid;
@@ -16,8 +17,6 @@
         .grid-item {
             background-color: rgba(219, 217, 226, 0.377);
             padding: 1px;
-            /* outline: 1px solid; */
-            float: center;
             opacity: 0;
             transition: opacity 2s ease 0.8s, transform 0.8s ease;
             transform: scale(1);
@@ -26,6 +25,7 @@
             opacity: 1;
             transition: opacity 0.4s ease;
             transition: scale(1.04);
+            cursor: "🚀";
         }
         h1 {
             text-align: center;
