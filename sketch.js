@@ -10,7 +10,7 @@ function createDivs() {
         newDiv.style.height = (600 / size) + "px";
         newDiv.style.width = (700 / size) + "px";
 
-        newDiv.addEventListener('click', function() {
+        newDiv.addEventListener('click touchstart', function() {
             this.style.background = "grey";
         });
 
