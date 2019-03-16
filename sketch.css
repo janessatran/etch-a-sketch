@@ -1,15 +1,21 @@
 
 body {
-    background: #f3d491;
+    background: #f1e7ca;
     color: #fff;
-    font: 15px 'Silkscreen', monospace;
     letter-spacing: 1px;
     display: table-cell;
+    font: 2rem;
+    font-family: 'Titillium Web', sans-serif;
     vertical-align: middle;
     margin: 0;
     height: 100%;
     display: grid;
   }
+.title {
+    font-family: 'Pacifico', cursive;
+    font-size: 3.5rem;
+    padding-bottom: 0;
+}
   
 .container {
     max-width: 700px;
@@ -17,7 +23,7 @@ body {
     text-align: center;
 }
 .grid-container {
-    margin: 1em 0;
+    margin: 0.8em 0;
     cursor: pointer;
     width: 700px;
     height: 600px;
@@ -38,7 +44,7 @@ body {
     /* transform: scale(1.04); */
 }
 button {
-    background-color: #fcebc7;
+    background-color: #b4b3b079;
     border: 1px #969696;
     padding: 15px 32px;
     text-align: center;
